@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>PNW 6-Hourly Precip Model Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">PNW 6-Hourly Precip Model Viewer</h2>
+
+<div class="w3-content w3-display-container">
+  
+<img class="mySlides" src="/images/hourly/pnw/006image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/012image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/018image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/024image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/030image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/036image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/042image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/048image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/054image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/060image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/066image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/072image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/078image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/084image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/090image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/096image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/102image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/108image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/114image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/120image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/126image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/132image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/138image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/144image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/150image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/156image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/162image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/168image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/174image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/180image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/186image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/192image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/198image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/204image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/210image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/216image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/222image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/228image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/234image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/pnw/240image.png" style="width:90%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>

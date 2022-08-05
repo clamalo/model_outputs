@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>South America Accumulated Precip Model Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">South America Accumulated Precip Model Viewer</h2>
+
+<div class="w3-content w3-display-container">
+  
+<img class="mySlides" src="/images/accumulated/sa/006image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/012image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/018image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/024image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/030image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/036image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/042image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/048image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/054image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/060image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/066image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/072image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/078image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/084image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/090image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/096image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/102image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/108image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/114image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/120image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/126image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/132image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/138image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/144image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/150image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/156image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/162image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/168image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/174image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/180image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/186image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/192image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/198image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/204image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/210image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/216image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/222image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/228image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/234image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/sa/240image.png" style="width:90%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>NorCal Accumulated Precip Model Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">NorCal Accumulated Precip Model Viewer</h2>
+
+<div class="w3-content w3-display-container">
+  
+<img class="mySlides" src="/images/accumulated/norcal/006image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/012image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/018image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/024image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/030image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/036image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/042image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/048image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/054image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/060image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/066image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/072image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/078image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/084image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/090image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/096image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/102image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/108image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/114image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/120image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/126image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/132image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/138image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/144image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/150image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/156image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/162image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/168image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/174image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/180image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/186image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/192image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/198image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/204image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/210image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/216image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/222image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/228image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/234image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/norcal/240image.png" style="width:90%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>

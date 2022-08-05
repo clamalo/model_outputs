@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>NZ/AUS Accumulated Precip Model Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">NZ/AUS Accumulated Precip Model Viewer</h2>
+
+<div class="w3-content w3-display-container">
+  
+<img class="mySlides" src="/images/accumulated/nz/006image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/012image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/018image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/024image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/030image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/036image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/042image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/048image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/054image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/060image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/066image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/072image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/078image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/084image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/090image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/096image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/102image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/108image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/114image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/120image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/126image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/132image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/138image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/144image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/150image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/156image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/162image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/168image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/174image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/180image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/186image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/192image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/198image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/204image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/210image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/216image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/222image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/228image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/234image.png" style="width:90%">
+<img class="mySlides" src="/images/accumulated/nz/240image.png" style="width:90%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>

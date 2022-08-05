@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>Utah 6-Hourly Precip Model Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">Utah 6-Hourly Precip Model Viewer</h2>
+
+<div class="w3-content w3-display-container">
+  
+<img class="mySlides" src="/images/hourly/utah/006image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/012image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/018image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/024image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/030image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/036image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/042image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/048image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/054image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/060image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/066image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/072image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/078image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/084image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/090image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/096image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/102image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/108image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/114image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/120image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/126image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/132image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/138image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/144image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/150image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/156image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/162image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/168image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/174image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/180image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/186image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/192image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/198image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/204image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/210image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/216image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/222image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/228image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/234image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/utah/240image.png" style="width:90%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>

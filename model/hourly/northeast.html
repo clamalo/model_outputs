@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>Northeast 6-Hourly Precip Model Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">Northeast 6-Hourly Precip Model Viewer</h2>
+
+<div class="w3-content w3-display-container">
+  
+<img class="mySlides" src="/images/hourly/northeast/006image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/012image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/018image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/024image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/030image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/036image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/042image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/048image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/054image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/060image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/066image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/072image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/078image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/084image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/090image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/096image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/102image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/108image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/114image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/120image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/126image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/132image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/138image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/144image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/150image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/156image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/162image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/168image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/174image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/180image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/186image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/192image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/198image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/204image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/210image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/216image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/222image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/228image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/234image.png" style="width:90%">
+<img class="mySlides" src="/images/hourly/northeast/240image.png" style="width:90%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>
